@@ -1,0 +1,95 @@
+
+.banner{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    /* margin-top: 50px;
+
+     width: 100%;
+    height: 160px; */
+    /*background: url("https://www.postdicom.com/images/blog-posts/social-media-images/handling-dicom-medical-imaging-data-social.png") center center; */
+}
+.banner__search{
+    display: flex;
+    flex-direction: column;
+}
+.banner__search > button{
+    color: #ff7779;
+    background-color: white;
+    text-transform: inherit;
+    font-weight: 900;
+    outline-color: #ff7779;
+    outline-width: 100px;
+    border: 1px solid #ff7779   ;
+    border-radius: 10px;
+}
+.banner__search > button:hover{
+    color: #ff7779;
+    background-color: white;
+    text-transform: inherit;
+    font-weight: 900;
+    outline-color: #ff7779;
+    outline-width: 100px;
+    border: 1px solid black;
+}
+.banner-info{
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-top: 150px;
+        padding-right: 18px;
+        padding-bottom: 30px;
+        width: 300px;
+}
+.banner-info > button{
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+    outline-color: white;
+    border: 1px solid black;
+    text-decoration: none;
+    
+    
+}
+.prediction{
+    color: grey;
+    text-transform: inherit;
+    outline-color: #ff7779;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 50px;
+    align-content: center;
+    margin-left: 28%;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    text-decoration: none;
+    color: #ff7779;
+    background-color:white;
+}
+.banner-info > button:hover{
+    background-color:white;
+    color: #ff7779;
+    text-transform: inherit;
+    outline-color: #ff7779;
+    margin-top: 20px;
+    font-weight: 600;
+    border: 1px solid black;
+    
+}
+.banner-info > h5{
+    
+    margin-top: 10px;
+
+}
+.buttton__searchButton{
+    color: #ff7779;
+    background-color: white;
+    text-transform: inherit;
+    font-weight: 900;
+}
